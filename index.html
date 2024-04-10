@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            background-color: #464646;
+            background-image: url(images/background-photo.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        .jumbotron {
+            text-align: center;
+            padding: 50px;
+            background-color: rgba(255, 255, 255, 0.75);
+            margin-bottom: 30px;
+        }
+
+        .image-gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .image-gallery figure {
+            margin: 0 0 20px;
+            width: 100%;
+            max-width: 450px;
+        }
+
+        .image-gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 767px) {
+            .image-gallery figure {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="jumbotron">
+        <h1>Image Gallery: Nature and Wildlife Photography</h1>
+    </header>
+    <div class="image-gallery">
+        <figure>
+            <img src="https://wallpapercave.com/wp/wp8384886.jpg?text=Image+1" alt="Image 1">
+            <figcaption>"The river is the vein of the land."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallpapercave.com/wp/wp4491484.jpg?text=Image+2" alt="Image 2">
+            <figcaption>"A river is more than an amenity, it is a living system."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallpaperaccess.com/full/1825306.jpg?text=Image+3" alt="Image 3">
+            <figcaption>"The sky is the canvas, and the sunset is the masterpiece."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallpapercave.com/wp/wp4491463.jpg?text=Image+4" alt="Image 4">
+            <figcaption>"Every sunset is an opportunity to reset."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallpapercave.com/wp/Tjh7Iey.jpg?text=Image+5" alt="Image 5">
+            <figcaption>"The river is a reminder that life is a journey, and that every moment is an opportunity to learn and grow.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallpapercave.com/wp/XLC6Aj5.jpg?text=Image+6" alt="Image 6">
+            <figcaption>"The river is a source of inspiration and creativity. It can help you find your path and your purpose." </figcaption>
+        </figure>
+        <figure>
+            <img src="https://wallup.net/wp-content/uploads/2015/12/243666-forest-simple_background-trees-path-nature-landscape.jpg?text=Image+7" alt="Image 7">
+            <figcaption>"Nature is not a commodity to be bought and sold, but the foundation of our very existence."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse3.mm.bing.net/th?id=OIP.x6XePsYoDTFgg4tiw4xmLwHaEv&pid=Api&P=0&h=220?text=Image+8" alt="Image 8">
+            <figcaption>"If we surrendered to earth's intelligence we could rise up rooted, like trees."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://cdn.mos.cms.futurecdn.net/B3PXsxHF8wwooNLKi6imQ4-1536-80.jpg?text=Image+9" alt="Image 9">
+            <figcaption>"Love the trees until their leaves fall off, then encourage them to try again next year."</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.njkHIy-pAJdgiod6mDRtxwHaEK&pid=Api&P=0&h=220?text=Image+10" alt="Image 10">
+            <figcaption>"I am like a river that flows with the current of the water. Whatever obstacle I encounter, I'll find a way to flow around it.</figcaption>
+        </figure>
+        <figure>
+            <img src="https://www.stephaniedaily.com/wp-content/uploads/2017/12/palmtree.jpg?text=Images+11" alt="Image 11">
+            <figcaption>"The righteous shall flourish like a palm tree." - Psalm 92:1</figcaption>
+        </figure>
+        <figure>
+            <img src="https://tse2.mm.bing.net/th?id=OIP.LkqIi3jLUCxQ8Pi0CzMhYQHaEr&pid=Api&P=0&h=220?text=Images+12" alt="Image 12">
+            <figcaption>"May you never betoo busy to stop and breathe under a palm tree.</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
